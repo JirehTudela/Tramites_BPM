@@ -1,0 +1,26 @@
+{
+    "tramites_inscripcion": [
+        {
+            "id_tramite": "INS-8542",
+            "ci_estudiante": "12363745",
+            "ru_estudiante": "1802493",
+            "nombre": "Jéssica Jireh Tudela López",
+            "materias_solicitadas": [
+                "Base de datos 2",
+                "Multimedia"
+            ],
+            "fecha_solicitud": "2026-05-27",
+            "estado": "En Revisión"
+        }
+    ],
+    "tramites_certificados": [
+        {
+            "id_tramite": "CER-1014",
+            "ci_estudiante": "12345678",
+            "ru_estudiante": "1000000",
+            "tipo_certificado": "Certificado de Estudiante Regular",
+            "fecha_solicitud": "2026-05-27",
+            "estado": "Entregado"
+        }
+    ]
+}
