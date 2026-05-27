@@ -1,7 +1,6 @@
 <?php
 require_once 'GestorTramites.php';
 
-// Verificamos que hayamos recibido un ID por la URL
 if (!isset($_GET['id'])) {
     header("Location: panel_admin.php");
     exit();
@@ -70,7 +69,6 @@ $cantidad_actual = count($tramite_actual['materias_solicitadas']);
     </main>
 
     <script>
-        // Si el usuario cambia el número, regeneramos las cajas en blanco
         document.getElementById('cantidad_materias').addEventListener('input', function() {
             const cantidad = parseInt(this.value) || 0;
             const contenedor = document.getElementById('cajas_dinamicas');
